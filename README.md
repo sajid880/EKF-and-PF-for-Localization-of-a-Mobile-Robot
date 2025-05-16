@@ -1,4 +1,4 @@
-# filters
+# EKF AND PF 
 
 The starter code is written in Python and depends on NumPy and Matplotlib.
 This README gives a brief overview of each file.
