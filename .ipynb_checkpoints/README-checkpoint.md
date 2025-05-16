@@ -8,8 +8,8 @@ This README gives a brief overview of each file.
 - `utils.py` -- This contains assorted plotting functions, as well as a useful
   function for normalizing angles.
 - `policies.py` -- This contains a simple policy, which you can safely ignore.
-- `ekf.py` -- Kalman filter implementation here!
-- `pf.py` -- particle filter implementation here!
+- `ekf.py` -- Add your extended Kalman filter implementation here!
+- `pf.py` -- Add your particle filter implementation here!
 
 ## Command-Line Interface
 
@@ -31,10 +31,4 @@ with the `--data-factor` and `--filter-factor` flags. To see other command-line
 flags available to you, run
 ```bash
 $ python localization.py -h
-```
-To see Plots run these commands
-
-```bash
-$ python plotting_efk.py 
-$ python plotting_pf.py 
 ```
